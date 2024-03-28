@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Cousine", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #474747;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+}
+
+.headerLogo {
+    margin: 20px auto 20px auto;
+}
+
+.firstBanner {
+    display: flex;
+    width: 100%;
+
+}
+
+.photoFirstImg {
+    width: 68%;
+    overflow: hidden;
+    height: 780px;
+}
+
+.photoFirstImgSetting {
+    max-width: 40%;
+    scale: 300%;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+
+.infoFirstBanner {
+    width: 32%;
+    background-color: #ECF8D2;
+    height: 780px;
+}
+
+.infoBannerInner {
+    padding-top: 300px;
+    width: 300px;
+    margin: 0 auto;
+    
+}
+
+.palkaRazdelitel {
+    width: 100px;
+    height: 6px;
+    background-color: #82925F;
+    margin: 30px auto;
+}
+
+.infoBannerHeader {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #82925F;
+}
+
+.infoBannerDiscription {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: #82925F;
+
+}
+
+.welcome {
+    background-color: #82925F;
+    padding: 100px 0;
+}
+
+.welcomeInner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 780px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.history {
+    background-color: #ECF8D2;
+    width: 100%;
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+.historyInner {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.historyPhoto {
+    width: 45%;
+    max-width: 536px;
+    max-height: 440px;
+    overflow: hidden;
+}
+
+.historyPhotoSetting {
+    margin-top: -60%;
+}
+
+.historyText {
+    width: 45%;
+    max-width: 536px;
+    margin-top: 40px;
+}
+
+.historyHeader {
+    font-size: 49px;
+    color: #82925F;
+    font-weight: 700;
+}
+
+.historyPalkaRazdelitel {
+    width: 100px;
+    height: 6px;
+    background-color: #82925F;
+    margin: 30px 0;
+}
+
+.historyDescription {
+    font-size: 15px;
+}
+
+.team {
+    width: 100%;
+    background-color: #82925F;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.teamInner {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.teamHeader {
+    font-size: 49px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.peoples {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.chel {
+    width: 30%;
+    max-width: 240px;
+}
+
+.chelPhotoSetting {
+    width: 100%;
+    max-width: 240px;
+    border-radius: 120px;
+}
+
+.chelName {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.chelRazdelitel {
+    width: 84px;
+    height: 4px;
+    background-color: #ECF8D2;
+    margin: 10px auto;
+}
+
+.chelDolzhnost {
+    font-size: 18px;
+    color: #ECF8D2;
+    font-weight: 700;
+    text-align: center;
+}
+
+.chelSocial {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon:first-child {
+    margin-right: 5px;
+}
+
+.icon {
+    transition: 0.5s;
+}
+.icon:hover {
+    opacity: 50%;
+}
+
+.programm {
+    width: 100%;
+    background-color: #ECF8D2;
+    padding: 120px 0;
+}
+
+.programmInner {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.programmHeaderGlavniy {
+    font-size: 49px;
+    color: #82925F;
+    text-align: center;
+    font-weight: 700;
+}
+
+.programmHeader {
+    margin-top: 26px;
+    font-size: 38px;
+    color: #82925F;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.programItem {
+    background-color: #fff;
+    margin-top: 16px;
+    display: flex;
+    height: 100%;
+    max-height: 154px;
+    padding: 40px 0;
+}
+
+.programmTime {
+    width: 25%;
+    font-size: 16px;
+    margin-left: 40px;
+    
+}
+
+.programmData {
+    width: 75%;
+    margin-left: 20px;
+}
+
+.programmDataHeader {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.anketa {
+    height: 100%;
+    max-height: 496px;
+    background-image: url(../assets/image/bgAnketa.jpg);
+    background-position: 0 -1800px;
+    padding: 100px 0;
+}
+
+.anketaInner {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.anketaHeader {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.anketaRazdelitel {
+    background-color: #fff;
+    width: 100px;
+    height: 6px;
+    margin: 30px auto;
+}
+
+.anketaDiscription {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.anketaButton {
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    color: #82925F;
+
+    padding: 15px 30px;
+    max-width: 180px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #fff;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    
+}
+
+.anketaButton:hover {
+    background-color: #82925F;
+    color: #fff;
+}
+
+
+/* FAQ */
+
+.faq {
+    width: 100%;
+    background-color: #ECF8D2;
+    padding: 120px 0;
+}
+
+.faqInner {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.faqTitle {
+    display: block;
+    cursor: pointer;
+    padding: 20px 15px;
+    font-weight: 700;
+    font-size: 18px;
+
+    position: relative;
+}
+
+.faqItemInner {
+    margin-top: 26px;
+}
+
+.faqItem {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.faqItem:last-child {
+    margin-bottom: 0;
+}
+
+.faqInput {
+    appearance: none;
+
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.faqInput:checked + .faqText {
+    display: block;
+}
+
+
+
+.faqText {
+    display: none;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.dressCodeImg {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.perehodTg {
+    height: 100%;
+    max-height: 496px;
+    background-image: url(../assets/image/bgPerehodTg.jpg);
+    background-position: 0 -2100px;
+    padding: 100px 0;
+}
+
+@media (max-width: 950px) {
+    .headerLogo {
+        width: 90%;
+    }
+
+    .firstBanner {
+        display: block;
+    }
+
+    .photoFirstImg {
+        width: 100%;
+        height: 90%;
+    }
+    
+    .infoFirstBanner {
+        width: 100%;
+        background-color: #ECF8D2;
+        height: 500px;
+    }
+
+    .infoBannerInner {
+        padding-top: 140px;
+        width: 300px;
+        margin: 0 auto;
+        
+    }
+
+    .welcomeInner {
+        width: 90%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .welcome {
+        padding: 60px 0;
+    }
+
+    .historyInner {
+        display: block;
+    }
+
+    .historyPhoto {
+        width: 100%;
+    }
+
+    .history {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .historyText {
+        width: 90%;
+        margin: 60px auto;
+        justify-content: center;
+    }
+
+    .historyHeader {
+        text-align: center;
+    }
+
+    .historyPalkaRazdelitel {
+        margin: 20px auto;
+    }
+
+    .historyDescription {
+        text-align: center;
+    }
+
+    .teamInner {
+        width: 90%;
+    }
+
+    .team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .peoples {
+        display: block;
+    }
+    
+    .chel {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .chel:last-child {
+        margin-bottom: 0;
+    }
+    
+    .programmInner {
+        width: 90%;
+    }
+
+    .programmTime {
+        display: block;
+        margin-left: 20px;
+
+    }
+
+    .programm {
+        padding: 60px 0;
+    }
+
+    .programItem:last-child {
+        margin-top: 0;
+    }
+
+    .programmHeader {
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+
+    .anketaInner {
+        width: 90%;
+    }
+
+    .anketaHeader {
+        font-size: 34px;
+    }
+
+    .anketaDiscription {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .faqItemInner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .faq {
+        padding: 60px 0;
+    }
+
+    .programmHeaderGlavniy {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
