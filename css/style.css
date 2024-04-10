@@ -41,7 +41,7 @@ body {
 .photoFirstImgSetting {
     max-width: 40%;
     scale: 300%;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 20%;
 }
 
@@ -119,7 +119,8 @@ body {
 }
 
 .historyPhotoSetting {
-    margin-top: -60%;
+    margin-top: 10%;
+    width: 550px;
 }
 
 .historyText {
@@ -177,10 +178,12 @@ body {
     max-width: 240px;
 }
 
+
 .chelPhotoSetting {
     width: 100%;
     max-width: 240px;
     border-radius: 120px;
+    overflow: hidden;
 }
 
 .chelName {
