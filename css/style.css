@@ -119,7 +119,7 @@ body {
 }
 
 .historyPhotoSetting {
-    margin-top: 10%;
+    margin-top: -20%;
     width: 550px;
 }
 
@@ -409,6 +409,19 @@ body {
 }
 
 @media (max-width: 950px) {
+    .photoFirstImgSetting {
+        margin-bottom: 40%;
+        margin-top: 50px;
+        height: 100%;
+    }
+
+    .historyPhotoSetting {
+        position: relative;
+        overflow: hidden;
+        margin-top: -30%;
+        left: -94px;
+    }
+
     .headerLogo {
         width: 90%;
     }
